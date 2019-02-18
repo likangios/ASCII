@@ -1,0 +1,48 @@
+PODS:
+  - AVOSCloud (11.4.7)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - Masonry (1.0.2)
+  - SVProgressHUD (2.2.5)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AVOSCloud
+  - BlocksKit (~> 2.2.5)
+  - Masonry (~> 1.0.2)
+  - SVProgressHUD
+  - YYKit (~> 1.0.9)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AVOSCloud
+    - BlocksKit
+    - Masonry
+    - SVProgressHUD
+    - YYKit
+
+SPEC CHECKSUMS:
+  AVOSCloud: e1257f9a7c28e04ae8642d554a37654e8392d1b7
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: e6700a7a69859f8b329c007fdd264f53b371a85f
+
+COCOAPODS: 1.5.3
